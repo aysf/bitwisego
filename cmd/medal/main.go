@@ -1,9 +1,8 @@
 package main
 
 /*
-This example of using bitwise operator to find out whether there is
-a certain medal in Ash's medal collection
-
+This example demonstrates bitwise operator usage to find out whether
+there is a certain medal in Ash's medal collection
 */
 
 import "fmt"
@@ -23,7 +22,7 @@ func main() {
 	// uncommented this value to add earth medal to the collection
 	// AshMedal ^= earth
 
-	// check earth medal in ash 'smedal collection
+	// check if there is any earth medal in ash's medal collection
 	if AshMedal&earth != 0 {
 		fmt.Println("Ash has earth medal")
 	} else {
