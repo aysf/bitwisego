@@ -16,7 +16,7 @@ const (
 
 func main() {
 
-	// try to input other values
+	// try to input other value combination
 	AshMedal := fire | water | wind
 
 	// uncommented this value to add earth medal to the collection
