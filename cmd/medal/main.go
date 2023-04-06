@@ -17,10 +17,11 @@ const (
 
 func main() {
 
-	// commented/uncommented these values and
-	// also try to input other values
+	// try to input other values
 	AshMedal := fire | water | wind
-	// AshMedal := earth | fire
+
+	// uncommented this value to add earth medal to the collection
+	// AshMedal ^= earth
 
 	// check earth medal in ash 'smedal collection
 	if AshMedal&earth != 0 {
